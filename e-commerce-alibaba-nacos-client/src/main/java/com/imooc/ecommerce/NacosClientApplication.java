@@ -12,7 +12,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * <h1>Nacos Client 工程启动入口</h1>
  * */
 @ServletComponentScan
-@EnableCircuitBreaker   // 启动 Hystrix
+@EnableCircuitBreaker   // 启动Hystrix
 @EnableFeignClients
 @RefreshScope   // 刷新配置
 @EnableDiscoveryClient
