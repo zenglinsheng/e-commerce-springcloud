@@ -16,6 +16,7 @@ import java.util.Calendar;
 /**
  * <h1>JWT Token 解析工具类</h1>
  * */
+@SuppressWarnings("all")
 public class TokenParseUtil {
 
     /**

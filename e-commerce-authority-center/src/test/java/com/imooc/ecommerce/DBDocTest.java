@@ -36,7 +36,7 @@ public class DBDocTest {
         // 生成文件配置
         EngineConfig engineConfig = EngineConfig.builder()
                 // 生成文件路径
-                .fileOutputDir("/Users/brzha12/brzha_imooc/imooc-e-commerce")
+                .fileOutputDir("D://imooc-e-commerce//db")
                 // 打开目录
                 .openOutputDir(false)
                 // 文件类型

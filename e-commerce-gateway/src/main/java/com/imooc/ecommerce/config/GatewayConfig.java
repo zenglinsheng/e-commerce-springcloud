@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
  * <h1>配置类, 读取 Nacos 相关的配置项, 用于配置监听器</h1>
  * */
 @Configuration
+@SuppressWarnings("all")
 public class GatewayConfig {
 
     /** 读取配置的超时时间 */
