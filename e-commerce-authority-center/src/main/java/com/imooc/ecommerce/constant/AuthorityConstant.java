@@ -6,23 +6,9 @@ package com.imooc.ecommerce.constant;
 public final class AuthorityConstant {
 
     /** RSA 私钥, 除了授权中心以外, 不暴露给任何客户端 */
-    public static final String PRIVATE_KEY = "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCdX6IaUTV7xnzbkb4KEjBEn" +
-            "YfaM4wIG4dXsE+tQTx0AaOoCVG0JrEzInDs1X00hSX+tjtFYFRDB6WQaYa5CiadQAUiA31/xTFILob3fmWjVmgFUlZiZ+zlOhcvP59C6Cao" +
-            "dm8X5VzmVQSjVhql6JrKaQ7EM5EwaPNAGjGgG3fXogDA0Q8i9xX4XpP5Y0Ulf+nlePjxnWu2Zs5Dx98X6kRYpkaxiD/1v6kqKoUm27IerCP" +
-            "/2jEUET3wwK7lF8rozsV/3/V3I16fUcqMjsDCPxmdJx5VSV1xcR2c/z1hqB69uG1KX/4K8KwrAern5kuRy441LETh0gVZOPED3bAmNh/3Ag" +
-            "MBAAECggEAeWW7S2fXxRpxWINNwMEVIOkQUh8vZ1WtCtTEMddABhD5qPc/YqPyT4rC578sLWaEz77NbBAKEAcHDaaJuZX+AZHQI9PjbLu17" +
-            "4OMs8B6MQzHg0tnvdODZ7RvDBCdD2S75Xou6pURG9D7mfAi8FbFiVyPeoR4/IoJEyrhmyt1QA3PsTUCByAdOGqnoftlGsKvmzdkW/6C+iBA" +
-            "cjGkB+k498Nzzh80BlD0ToKDJe3Hf2cfXbjrZRkFIEAXzv7FNKniB8AXZraC/oRz8LI4y4u+ppCfG/cQUzdpdyizIPyfeZnbZrBzzem07Jq" +
-            "ZdM1teyWRGJpxFpc/NJICIGdkitsrAQKBgQDI5wCWjET1G+1fALFKB/BKZrl4Rcq0QpXHiRq7wqakDMcV2JVzxCePR7hhGdGo6I8Hl82lyq" +
-            "euVJEqSj7N3EmlghoyGxmyVBjjf/U1vPJ7HNrxEZP/3RNFX9kt7LkBOeRewk+7eP10k+uMdjqYaGc4bApvgSTKgUh6yu9//669dwKBgQDIi" +
-            "I1YH78ir7rEtDeqInBC1+lL1rQ2ZLR6kkG2rnoNaoVWBJFhMXPUwaInAYZGIghbC9x5ETEoydbztDq+dANq4GL/h0sLAcEoH41/tZj4UjXr" +
-            "BFlzgR2JQD3ngUp76HBr7OEZM8A13KLK6dmq4nFiHXoeAef3P3US7KWWufpRgQKBgA4K/6KGWYeclSIP5VSca3J37bz3e+zPvrJ85e5787Q" +
-            "B5KSlSAUYj/9W7w9yg5I/90d7l/dfzArGhIMlP3CaVleIWZZpCInLkRXN6vD/rR9n6/Hv3Z2D8YXm5kJsip4IUutAv9wF4AmXEV73IK9olN" +
-            "Z/ztbuewjgspVKvCUBVVCPAoGAVijFgf1x4/dY6bb8y66sSSv3YsxG9a/jE17PuSvR6P3BeCnSRM44lEr13oh7JprsuCGqgqHuWzYNkvv22" +
-            "WmDJmJuZpe8mGgSk6iq5RojNV4tKGLgBA6PoC7n6hXU6NP/qX9HX8qqZPn9P+2lxhQw3xUHKOlsvwCWzqC6rL4PXQECgYEAsU6N2XVkjPD8" +
-            "TAQF2RByje8ZVL4u/JK6BPJm4PRT2o1EvcHP4npQ6x4vmx/+qY5Ri2z13NZiXW+TbJ63bZN+cimWiH9ermSQef89JmQlFupJiugRqAjKrvo" +
-            "+/MEntOvGmpoX+Cx1MjhKP/IkRDGYlUmrtKQOrnx4uGS+AxwABkA=";
+    public static final String PRIVATE_KEY = "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJyYqa1YyTE+IGZunmnTDS94YysL0ZrYa1JS2N8FkVr5bIoSWxoKaAsjKl1LQJGwWH20+c/njL3+GGQo6JD0DHl381vIhqreTU6aIuKWmgIdEkNn1KZSXrzIr69LdbZXlw2iWg/GrXqZUB8hAHiiTnajPTY2H8FgLz2t3f1oMdpfVDUlGO1woLGa1e/ppM+arq9tmPtXSVO6/WT22XJGrmD+p/h2aBBs4/Qmb/ftmPCPbZsBpQeb5MJQRqLdZFsu5L2+Mcsy7BKqDFZWndBvf7syM+jZzzcZQJJZitJzj6KR0czCvvgqMUvRobkQpxuXZ9/qpV42XU+0MQraDoaajbAgMBAAECggEAOlsfy4FgoxRH9IQEtt3Uxd4xoC0+stNdNrvmvbq5eK0MFT+NUB5eqK9gOFcYLd3zroN9NbDeLE+1wAc1g2u210H31wmMBhX+LJjYfzMYyeedvTRI7Z/s5JGFy+fDsxnYkgt0gGcfWvk/D436lsObwpUTIdoG90lCV1V/fwFhb8wQZZsHHxLkR3eVmgI0GolcLX7oWUns8VeOeFc+iVIKqsYdp10SVCTmDnDE1GGlWeKLCIBpmU/0x+HYajZt2DUvGQKIrOYYpIiTPyQzuYwDTQm++sKFTO/5gkS9HWyzV4MYsJH2yq5cE1n2qqHaDxAj1w+bm3jV/5QHcWcN8DwpSQKBgQDrKgjjyB5RrV5CLucCX0DwPd94qCoBCLXit4B7BNCoGVLVvVbzVJQH5+YQJVG4uqEbGhNt4osv+Lj1LjurVOEzBMqpU7vbYrJf6kUzDkJipL8kqt9nst6XljdXFbImYud3mLPHtxpV+7xhpwGxyXTcIerWHub6Mkl0wKxnOtttbQKBgQDbqnSS/Ke8q4jqLG8y8IZaAf7rVgdxgXeUsGe90ZmiIOryBnwe7UyyEAFMO9AKe1dhfsInhfeM6OkCeBvSplPGFKZ4Sj7hAmp6pKVJrjSxvpC+epdQC0xn0EZfD9k7G/ijUZ+6Steyjam/gvAg+3EmkvpOFpcLGD8XAHtWnqfqZwKBgQCbRJLACpZyKTzOB/fA6jGPLdsJ6EZrjlvBSJWNI/28r5OwyiXJ3bMrkSKm0G0nwhmzMkFX0TdDQj6kq5T8J7vVGrnQmRe033KUv7JW5nhQdyQ5SpTc/A3aGnWJiyqoC692mJ1DJRM/aEnWVBVbVH9TBRXvsFGjKmazrq9mLUdJ9QKBgQCj5hwS7CcvlAGVUFAr/uEP2XteFpN5MnOJ4tGVBQYPvWXv7bzAyqg2F9EQE3TXzU3WdeDh4ohhgAsTh5Ci7O2G1zOafzNJaicOmTimsC+rC5guN4Qc+kEpGHLZTRb1jppHKYj3VA56sE6ekVEgGtxDPtk6WIqcgZvZSse8SqbZMwKBgERLwnaDe1m/NGSyXQSJoBGd8Bqb6Xdqj8c+PO3/9BzYH4nMaW8k8KbgCBSeC5Co1KFvNzqc54lQ2eSwFFWCZPmwlHmSb8xs/NoVRS/fzPK1incosEGwS1KZ5uIvkLA4KqDoxPevuMozvNBgRjLod7ruo8hw5RCyUzOlXJnshGmc";
 
     /** 默认的 Token 超时时间, 一天 */
     public static final Integer DEFAULT_EXPIRE_DAY = 1;
+
 }

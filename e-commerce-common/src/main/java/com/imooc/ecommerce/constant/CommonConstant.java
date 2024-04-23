@@ -6,10 +6,7 @@ package com.imooc.ecommerce.constant;
 public final class CommonConstant {
 
     /** RSA 公钥 */
-    public static final String PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnV+iGlE1e8Z825G+ChIwRJ2H2jOMCBu" +
-            "HV7BPrUE8dAGjqAlRtCaxMyJw7NV9NIUl/rY7RWBUQwelkGmGuQomnUAFIgN9f8UxSC6G935lo1ZoBVJWYmfs5ToXLz+fQugmqHZvF+Vc5l" +
-            "UEo1YapeiaymkOxDORMGjzQBoxoBt316IAwNEPIvcV+F6T+WNFJX/p5Xj48Z1rtmbOQ8ffF+pEWKZGsYg/9b+pKiqFJtuyHqwj/9oxFBE98" +
-            "MCu5RfK6M7Ff9/1dyNen1HKjI7Awj8ZnSceVUldcXEdnP89YagevbhtSl/+CvCsKwHq5+ZLkcuONSxE4dIFWTjxA92wJjYf9wIDAQAB";
+    public static final String PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAycmKmtWMkxPiBmbp5p0w0veGMrC9Ga2GtSUtjfBZFa+WyKElsaCmgLIypdS0CRsFh9tPnP54y9/hhkKOiQ9Ax5d/NbyIaq3k1OmiLilpoCHRJDZ9SmUl68yK+vS3W2V5cNoloPxq16mVAfIQB4ok52oz02Nh/BYC89rd39aDHaX1Q1JRjtcKCxmtXv6aTPmq6vbZj7V0lTuv1k9tlyRq5g/qf4dmgQbOP0Jm/37Zjwj22bAaUHm+TCUEai3WRbLuS9vjHLMuwSqgxWVp3Qb3+7MjPo2c83GUCSWYrSc4+ikdHMwr74KjFL0aG5EKcbl2ff6qVeNl1PtDEK2g6Gmo2wIDAQAB";
 
     /** JWT 中存储用户信息的 key */
     public static final String JWT_USER_INFO_KEY = "e-commerce-user";
