@@ -15,15 +15,13 @@ import javax.servlet.http.HttpServletRequest;
 public class GlobalExceptionAdvice {
 
     @ExceptionHandler(value = Exception.class)
-    public CommonResponse<String> handlerCommerceException(
-            HttpServletRequest req, Exception ex
-    ) {
+    public CommonResponse<String> handlerCommerceException(HttpServletRequest req, Exception ex) {
 
-        CommonResponse<String> response = new CommonResponse<>(
-                -1, "business error"
-        );
+        CommonResponse<String> response = new CommonResponse<>(-1, "business error");
         response.setData(ex.getMessage());
         log.error("commerce service has error: [{}]", ex.getMessage(), ex);
         return response;
+
     }
+
 }

@@ -17,10 +17,11 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @RefreshScope   // 刷新配置
 @EnableDiscoveryClient
 @SpringBootApplication
+@SuppressWarnings("all")
 public class NacosClientApplication {
 
     public static void main(String[] args) {
-
         SpringApplication.run(NacosClientApplication.class, args);
     }
+
 }

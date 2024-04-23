@@ -29,8 +29,8 @@ public class CommonResponse<T> implements Serializable {
     private T Data;
 
     public CommonResponse(Integer code, String message) {
-
         this.code = code;
         this.message = message;
     }
+
 }
