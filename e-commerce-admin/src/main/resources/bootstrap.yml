@@ -8,18 +8,18 @@ spring:
     name: e-commerce-admin
   security:
     user:
-      name: imooc-qinyi
+      name: zenglinsheng
       password: 88888888
   cloud:
     nacos:
       discovery:
         enabled: true
         server-addr: 127.0.0.1:8848
-        namespace: 1bc13fd5-843b-4ac0-aa55-695c25bc0ac6
+        namespace: 58ee0413-29df-49bf-ae41-8415ede908be
         metadata:
           management:
             context-path: ${server.servlet.context-path}/actuator
-          user.name: imooc-qinyi
+          user.name: zenglinsheng
           user.password: 88888888
   thymeleaf:
     check-template: false

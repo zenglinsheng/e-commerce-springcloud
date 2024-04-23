@@ -18,6 +18,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping("/nacos-client")
+@SuppressWarnings("all")
 public class NacosClientController {
 
     private final NacosClientService nacosClientService;
