@@ -22,6 +22,7 @@ import java.util.concurrent.Executor;
 @Slf4j
 @Component
 @DependsOn({"gatewayConfig"})
+@SuppressWarnings("all")
 public class DynamicRouteServiceImplByNacos {
 
     /** Nacos 配置服务 */

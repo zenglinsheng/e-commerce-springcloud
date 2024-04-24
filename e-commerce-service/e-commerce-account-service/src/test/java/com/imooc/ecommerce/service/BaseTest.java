@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public abstract class BaseTest {
 
     protected final LoginUserInfo loginUserInfo = new LoginUserInfo(
-            10L, "Qinyi@imooc.com"
+            10L, "zenglinsheng@imooc.com"
     );
 
     @Before
