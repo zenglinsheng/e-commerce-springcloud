@@ -15,7 +15,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @EnableJpaAuditing
 @EnableDiscoveryClient
 @SpringBootApplication
-@Import(DataSourceProxyAutoConfiguration.class)
+//@Import(DataSourceProxyAutoConfiguration.class)
 public class GoodsApplication {
 
     public static void main(String[] args) {
