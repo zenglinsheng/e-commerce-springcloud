@@ -15,6 +15,7 @@ import java.util.List;
  * */
 @Slf4j
 @Service
+@SuppressWarnings("all")
 public class UseHystrixCommandAnnotation {
 
     private final NacosClientService nacosClientService;
