@@ -37,6 +37,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * */
 @Slf4j
 @Component
+@SuppressWarnings("all")
 public class GlobalLoginOrRegisterFilter implements GlobalFilter, Ordered {
 
     /** 注册中心客户端, 可以从注册中心中获取服务实例信息 */

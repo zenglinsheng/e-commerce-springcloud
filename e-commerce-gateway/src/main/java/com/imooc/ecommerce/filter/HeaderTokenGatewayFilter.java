@@ -10,6 +10,7 @@ import reactor.core.publisher.Mono;
 /**
  * <h1>HTTP 请求头部携带 Token 验证过滤器</h1>
  * */
+@SuppressWarnings("all")
 public class HeaderTokenGatewayFilter implements GatewayFilter, Ordered {
 
     @Override
