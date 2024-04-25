@@ -14,6 +14,7 @@ import java.util.List;
  * <h1>批量请求 Hystrix Command</h1>
  * */
 @Slf4j
+@SuppressWarnings("all")
 public class NacosClientBatchCommand extends HystrixCommand<List<List<ServiceInstance>>> {
 
     private final NacosClientService nacosClientService;

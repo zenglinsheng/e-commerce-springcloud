@@ -15,6 +15,7 @@ import java.util.concurrent.Future;
 
 @Slf4j
 @Service
+@SuppressWarnings("all")
 public class NacosClientService {
 
     private final DiscoveryClient discoveryClient;
@@ -36,10 +37,10 @@ public class NacosClientService {
 //        }
 
         // 测试 NacosClientHystrixCommand 熔断
-//        throw new RuntimeException("has some error");
+        throw new RuntimeException("has some error");
 
-        log.info("request nacos client to get service instance info: [{}]", serviceId);
-        return discoveryClient.getInstances(serviceId);
+//        log.info("request nacos client to get service instance info: [{}]", serviceId);
+//        return discoveryClient.getInstances(serviceId);
     }
 
     /**

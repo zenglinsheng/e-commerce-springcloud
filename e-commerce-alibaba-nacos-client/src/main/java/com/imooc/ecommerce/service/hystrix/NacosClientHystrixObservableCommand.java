@@ -18,6 +18,7 @@ import java.util.List;
  * <h1>HystrixCommand, 隔离策略是基于信号量实现的</h1>
  * */
 @Slf4j
+@SuppressWarnings("all")
 public class NacosClientHystrixObservableCommand
         extends HystrixObservableCommand<List<ServiceInstance>> {
 

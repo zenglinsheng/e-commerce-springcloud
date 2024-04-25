@@ -17,6 +17,7 @@ import java.util.stream.Collectors;
  * <h1>请求合并器</h1>
  * */
 @Slf4j
+@SuppressWarnings("all")
 public class NacosClientCollapseCommand
         extends HystrixCollapser<List<List<ServiceInstance>>, List<ServiceInstance>, String> {
 
