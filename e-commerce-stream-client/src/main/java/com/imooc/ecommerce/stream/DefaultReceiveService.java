@@ -12,6 +12,7 @@ import org.springframework.cloud.stream.messaging.Sink;
  * */
 @Slf4j
 @EnableBinding(Sink.class)
+@SuppressWarnings("all")
 public class DefaultReceiveService {
 
     /**

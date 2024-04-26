@@ -45,6 +45,7 @@ import java.util.stream.Collectors;
 @Slf4j
 @Service
 @EnableBinding(LogisticsSource.class)
+@SuppressWarnings("all")
 public class OrderServiceImpl implements IOrderService {
 
     /** 表的 dao 接口 */

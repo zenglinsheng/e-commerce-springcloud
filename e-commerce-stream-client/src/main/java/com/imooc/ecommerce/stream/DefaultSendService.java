@@ -12,6 +12,7 @@ import org.springframework.messaging.support.MessageBuilder;
  * */
 @Slf4j
 @EnableBinding(Source.class)
+@SuppressWarnings("all")
 public class DefaultSendService {
 
     private final Source source;
