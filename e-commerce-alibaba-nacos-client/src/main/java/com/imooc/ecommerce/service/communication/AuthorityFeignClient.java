@@ -1,6 +1,5 @@
 package com.imooc.ecommerce.service.communication;
 
-import com.imooc.ecommerce.service.communication.hystrix.AuthorityFeignClientFallback;
 import com.imooc.ecommerce.service.communication.hystrix.AuthorityFeignClientFallbackFactory;
 import com.imooc.ecommerce.vo.JwtToken;
 import com.imooc.ecommerce.vo.UsernameAndPassword;

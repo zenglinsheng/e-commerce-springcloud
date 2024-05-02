@@ -13,6 +13,7 @@ import javax.sql.DataSource;
  * <h1>Seata 所需要的数据源代理配置类</h1>
  * */
 @Configuration
+@SuppressWarnings("all")
 public class DataSourceProxyAutoConfiguration {
 
     private final DataSourceProperties dataSourceProperties;

@@ -11,6 +11,7 @@ import org.springframework.messaging.support.MessageBuilder;
  * */
 @Slf4j
 @EnableBinding(QinyiSource.class)
+@SuppressWarnings("all")
 public class QinyiSendService {
 
     private final QinyiSource qinyiSource;

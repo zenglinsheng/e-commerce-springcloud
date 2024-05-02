@@ -11,6 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
  * <h1>Web Mvc 配置</h1>
  * */
 @Configuration
+@SuppressWarnings("all")
 public class ImoocWebMvcConfig extends WebMvcConfigurationSupport {
 
     /**

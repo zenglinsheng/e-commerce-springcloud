@@ -18,7 +18,7 @@ spring:
           management:
             context-path: ${server.servlet.context-path}/actuator
       # 配置管理
-#      config:
+#      config:s
 #        prefix: imooc-e-commerce
 #        file-extension: yaml  # 配置内容的数据格式, 默认为 properties
 #        enabled: true     # 如果不想使用 Nacos 进行配置管理, 设置为 false 即可

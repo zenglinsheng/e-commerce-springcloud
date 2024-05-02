@@ -9,7 +9,6 @@ import com.imooc.ecommerce.service.hystrix.NacosClientHystrixObservableCommand;
 import com.imooc.ecommerce.service.hystrix.UseHystrixCommandAnnotation;
 import com.imooc.ecommerce.service.hystrix.request_merge.NacosClientCollapseCommand;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -12,6 +12,7 @@ import org.springframework.messaging.handler.annotation.Payload;
  * */
 @Slf4j
 @EnableBinding(QinyiSink.class)
+@SuppressWarnings("all")
 public class QinyiReceiveService {
 
     /** 使用自定义的输入信道接收消息 */
